@@ -7,6 +7,13 @@ img {
     max-width: 100%;
 }
 
+.card {
+    /* debug */
+    background-color: red;
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+}
 
 
 /* utilities */
@@ -57,7 +64,6 @@ img {
 .footer-top {
     background-color: hsl(209.41deg 30.54% 32.75%);
     /* debug */
-    min-height: 300px;
 }
 
 .footer-bottom {
