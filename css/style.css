@@ -26,11 +26,42 @@ img {
 /* MAIN */
 
 /* portfolio section */
-
 [class*=col-] {
     /* debug */
     border: 2px solid black;
     min-height: 200px;
 }
 
+
+/* about section */
+.about {
+    background-color: var(--primary-color);
+    /* debug */
+    min-height: 500px;
+}
+
+/* contact me */
+.contact-me {
+    /* debug */
+    min-height: 500px
+}
+
+.form-div {
+    /* debug */
+    border: 2px solid black;
+    min-height: 500px;
+    width: 100%;
+}
 /* FOOTER */
+
+.footer-top {
+    background-color: hsl(209.41deg 30.54% 32.75%);
+    /* debug */
+    min-height: 300px;
+}
+
+.footer-bottom {
+    background-color: hsl(210deg 29.03% 24.31%);
+    /* debug */
+    min-height: 150px;
+}
