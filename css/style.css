@@ -1,3 +1,7 @@
+:root {
+    --primary-color: rgb(26 188 156 );
+}
+
 /* COMMON */
 img {
     max-width: 100%;
@@ -14,6 +18,19 @@ img {
     background-color: hsl(210deg 29.03% 24.31%);
 }
 
+.jumbotron {
+    min-height: 500px;
+    background-color: var(--primary-color)
+}
+
 /* MAIN */
+
+/* portfolio section */
+
+[class*=col-] {
+    /* debug */
+    border: 2px solid black;
+    min-height: 200px;
+}
 
 /* FOOTER */
