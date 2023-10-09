@@ -3,9 +3,16 @@ img {
     max-width: 100%;
 }
 
+
+
 /* utilities */
 
 /* HEADER */
+
+.navbar {
+    min-height: 80px;
+    background-color: hsl(210deg 29.03% 24.31%);
+}
 
 /* MAIN */
 
