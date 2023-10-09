@@ -44,7 +44,6 @@ img {
 .about {
     background-color: var(--primary-color);
     /* debug */
-    min-height: 500px;
 }
 
 /* contact me */
