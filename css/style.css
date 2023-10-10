@@ -122,20 +122,6 @@ span img {
     color: white;
 }
 
-.about .icon-with-stripes::before, 
-.about .icon-with-stripes::after {
-    content: '';
-    width: 50px;
-    height: 4px;
-    top:50%;
-}
-.about .icon-with-stripes::before {
-    left: 18%; 
-}
-
-  .about .icon-with-stripes::after {
-   right: 18%;
-}
 
 /* contact me */
 .ms_form-control {
@@ -162,19 +148,7 @@ span img {
 
 .contact-me .icon-with-stripes::before, 
 .contact-me .icon-with-stripes::after {
-    content: '';
-    width: 50px;
-    height: 4px;
-    top:50%;
     background-color: black;
-}
-
-.contact-me .icon-with-stripes::before {
-    left: 18%; 
-}
-
-  .contact-me .icon-with-stripes::after {
-   right: 18%;
 }
 
 
