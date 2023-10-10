@@ -1,5 +1,7 @@
 :root {
-    --primary-color: rgb(26 188 156 );
+    --ms_primary-color: rgb(26 188 156 );
+    --ms_secondary-color: hsl(210deg 29.03% 24.31%);
+    --ms_secondary-color-light: hsl(209.41deg 30.54% 32.75%);
 }
 
 /* COMMON */
@@ -15,6 +17,11 @@ img {
     width: 100%;
 }
 
+.wrapper {
+    width: 70%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
 
 /* utilities */
 
@@ -22,12 +29,12 @@ img {
 
 .navbar {
     min-height: 80px;
-    background-color: hsl(210deg 29.03% 24.31%);
+    background-color: var(--ms_secondary-color)
 }
 
-.jumbotron {
+.hero-section {
     min-height: 500px;
-    background-color: var(--primary-color)
+    background-color: var(--ms_primary-color)
 }
 
 /* MAIN */
@@ -42,7 +49,7 @@ img {
 
 /* about section */
 .about {
-    background-color: var(--primary-color);
+    background-color: var(--ms_primary-color);
     /* debug */
 }
 
@@ -61,12 +68,12 @@ img {
 /* FOOTER */
 
 .footer-top {
-    background-color: hsl(209.41deg 30.54% 32.75%);
+    background-color: var(--ms_secondary-color-light)
     /* debug */
 }
 
 .footer-bottom {
-    background-color: hsl(210deg 29.03% 24.31%);
+    background-color: var(--ms_secondary-color);
     /* debug */
     min-height: 150px;
 }
