@@ -21,11 +21,13 @@ img {
 }
 
 .ms_wrapper {
-    width: 65%;
+    width: 80%;
     max-width: 1024px;
     margin: 0 auto;
 }
 
+
+/* icon star with stripes */
 .icon-with-stripes {
     position: relative;
 }
@@ -52,9 +54,6 @@ img {
   .icon-with-stripes::after {
    right: 20%;
   }
-
-
-/* utilities */
 
 /* HEADER */
 
@@ -112,16 +111,12 @@ span img {
     background-color: black;
 }
 
-
-
 /* about section */
 
-/* star icon-about section */
 .about {
     background-color: var(--ms_primary-color);
     color: white;
 }
-
 
 /* contact me */
 .ms_form-control {
@@ -150,7 +145,6 @@ span img {
 .contact-me .icon-with-stripes::after {
     background-color: black;
 }
-
 
 /* FOOTER */
 

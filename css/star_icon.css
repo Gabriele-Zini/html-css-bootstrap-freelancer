@@ -1,12 +1,32 @@
 /* ---------MEDIA QUERY STAR WITH STRIPS ICON HERO AND PORTFOLIO SECTION--------- */
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 380px) {
      .icon-with-stripes::before {
-        left: 28%; 
+        left: 27%; 
       }
 
       .icon-with-stripes::after {
-       right: 28%;
+       right: 27%;
+      }
+  }
+
+@media screen and (min-width: 450px) {
+     .icon-with-stripes::before {
+        left: 29%; 
+      }
+
+      .icon-with-stripes::after {
+       right: 29%;
+      }
+  }
+
+@media screen and (min-width: 500px) {
+     .icon-with-stripes::before {
+        left: 32%; 
+      }
+
+      .icon-with-stripes::after {
+       right: 32%;
       }
   }
 
@@ -22,27 +42,48 @@
       }
   }
 
- 
+  @media screen and (min-width: 768px) {
+    .icon-with-stripes::before {
+       left: 38%; 
+     }
+   
+     .icon-with-stripes::after {
+      right: 38%;
+     }
+ }
 
-  @media screen and (min-width: 900px) {
+
+  @media screen and (min-width: 850px) {
      .icon-with-stripes::before {
         left: 39%; 
       }
     
-
       .icon-with-stripes::after {
        right: 39%;
       }
   }
 
-
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 990px) {
      .icon-with-stripes::before {
         left: 40%; 
+        width: 75px;
       }
 
       .icon-with-stripes::after {
        right: 40%;
+       width: 75px;
+      }
+  }
+
+  @media screen and (min-width: 1200px) {
+     .icon-with-stripes::before {
+        left: 40%; 
+        width: 90px;
+      }
+
+      .icon-with-stripes::after {
+       right: 40%;
+       width: 90px;
       }
   }
 
@@ -57,7 +98,6 @@
        width: 90px; 
       }
   }
-
 
 /* ---------/MEDIA QUERY STAR WITH STRIPS ICON HERO AND PORTFOLIO SECTION--------- */
 
