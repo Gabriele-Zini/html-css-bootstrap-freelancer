@@ -175,6 +175,100 @@ span img {
     color: white;
 }
 
+.about .icon-with-stripes::before, 
+.icon-with-stripes::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    top:50%;
+}
+.about .icon-with-stripes::before {
+    left: 18%; 
+}
+
+  .about .icon-with-stripes::after {
+   right: 18%;
+}
+
+
+
+/* ---------MEDIA QUERY STAR WITH STRIPS ICON ABOUT SECTION--------- */
+
+@media screen and (min-width: 500px) {
+    .about .icon-with-stripes::before, 
+.icon-with-stripes::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    top:50%;
+  }
+
+.about .icon-with-stripes::before {
+    left: 25%; 
+  }
+
+  .about .icon-with-stripes::after {
+   right: 25%;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+    .about .icon-with-stripes::before, 
+.icon-with-stripes::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    top:50%;
+  }
+
+.about .icon-with-stripes::before {
+    left: 32%; 
+  }
+
+  .about .icon-with-stripes::after {
+   right: 32%;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .about .icon-with-stripes::before, 
+.icon-with-stripes::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    top:50%;
+  }
+
+.about .icon-with-stripes::before {
+    left: 35%; 
+  }
+
+  .about .icon-with-stripes::after {
+   right: 35%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .about .icon-with-stripes::before, 
+.icon-with-stripes::after {
+    content: '';
+    width: 90px;
+    height: 4px;
+    top:50%;
+  }
+
+.about .icon-with-stripes::before {
+    left: 38%; 
+  }
+
+  .about .icon-with-stripes::after {
+   right: 38%;
+  }
+}
+/* ---------/MEDIA QUERY STAR WITH STRIPS ICON ABOUT SECTION--------- */
+
 /* contact me */
 .contact-me {
     /* debug */
