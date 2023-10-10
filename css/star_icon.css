@@ -4,7 +4,6 @@
      .icon-with-stripes::before {
         left: 28%; 
       }
-    
 
       .icon-with-stripes::after {
        right: 28%;
@@ -16,7 +15,6 @@
         left: 35%; 
         width: 60px;
       }
-    
 
       .icon-with-stripes::after {
        right: 35%;
@@ -42,7 +40,6 @@
      .icon-with-stripes::before {
         left: 40%; 
       }
-    
 
       .icon-with-stripes::after {
        right: 40%;
@@ -54,7 +51,6 @@
         left: 41%;
         width: 90px; 
       }
-    
 
       .icon-with-stripes::after {
        right: 41%;
@@ -69,6 +65,7 @@
 
 
 
+
 /* ---------MEDIA QUERY STAR WITH STRIPS ICON ABOUT SECTION--------- */
 
 @media screen and (min-width: 500px) {
@@ -77,7 +74,7 @@
     content: '';
     width: 70px;
     height: 4px;
-    top:50%;
+    top: 50%;
   }
 
   .about .icon-with-stripes::before {
@@ -115,7 +112,7 @@
     content: '';
     width: 70px;
     height: 4px;
-    top:50%;
+    top: 50%;
   }
   .about .icon-with-stripes::before {
     left: 35%; 
@@ -132,7 +129,7 @@
     content: '';
     width: 90px;
     height: 4px;
-    top:50%;
+    top: 50%;
   }
   .about .icon-with-stripes::before {
     left: 38%; 
@@ -154,7 +151,7 @@
     content: '';
     width: 70px;
     height: 4px;
-    top:50%;
+    top: 50%;
   }
 
   .contact-me .icon-with-stripes::before {
@@ -192,8 +189,9 @@
     content: '';
     width: 70px;
     height: 4px;
-    top:50%;
+    top: 50%;
   }
+
   .contact-me .icon-with-stripes::before {
     left: 35%; 
   }
@@ -201,6 +199,7 @@
   .contact-me .icon-with-stripes::after {
    right: 35%;
   }
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -209,7 +208,7 @@
     content: '';
     width: 90px;
     height: 4px;
-    top:50%;
+    top: 50%;
   }
   .contact-me .icon-with-stripes::before {
     left: 38%; 
