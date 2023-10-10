@@ -2,6 +2,7 @@
     --ms_primary-color: rgb(26 188 156 );
     --ms_secondary-color: hsl(210deg 29.03% 24.31%);
     --ms_secondary-color-light: hsl(209.41deg 30.54% 32.75%);
+    --ms_font-color:white;
 }
 
 /* COMMON */
@@ -9,48 +10,169 @@ img {
     max-width: 100%;
 }
 
-.card {
-    /* debug */
-    background-color: red;
-    border: 2px solid black;
+.ms_card {
     height: 100%;
     width: 100%;
+    border: none;
+
 }
 
-.wrapper {
-    width: 70%;
+.ms_card img {
+    border-radius: 10px;
+}
+
+.ms_wrapper {
+    width: 65%;
     max-width: 1024px;
     margin: 0 auto;
 }
+
+.icon-with-stripes {
+    position: relative;
+}
+
+
+.icon-with-stripes .fa-star {
+    color: white;
+  }
+  
+.icon-with-stripes::before, 
+.icon-with-stripes::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top:50%;
+}
+
+.icon-with-stripes::before {
+    left: 20%; 
+  }
+
+  .icon-with-stripes::after {
+   right: 20%;
+  }
+
+
+  /* ---------MEDIA QUERY STAR WITH STRIPS ICON--------- */
+
+  @media screen and (min-width: 400px) {
+    .icon-with-stripes::before {
+        left: 28%; 
+      }
+    
+      .icon-with-stripes::after {
+       right: 28%;
+      }
+  }
+
+  @media screen and (min-width: 540px) {
+    .icon-with-stripes::before {
+        left: 35%; 
+      }
+    
+      .icon-with-stripes::after {
+       right: 35%;
+      }
+  }
+
+  @media screen and (min-width: 900px) {
+    .icon-with-stripes::before {
+        left: 39%; 
+      }
+    
+      .icon-with-stripes::after {
+       right: 39%;
+      }
+  }
+
+
+  @media screen and (min-width: 1024px) {
+    .icon-with-stripes::before {
+        left: 40%; 
+      }
+    
+      .icon-with-stripes::after {
+       right: 40%;
+      }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .icon-with-stripes::before {
+        left: 42%; 
+      }
+    
+      .icon-with-stripes::after {
+       right: 42%;
+      }
+  }
+
+  @media screen and (min-width: 2560px) {
+    .icon-with-stripes::before {
+        left: 45%; 
+      }
+    
+      .icon-with-stripes::after {
+       right: 45%;
+      }
+  }
+/* ---------/MEDIA QUERY STAR WITH STRIPS ICON--------- */
 
 /* utilities */
 
 /* HEADER */
 
-.navbar {
-    min-height: 80px;
+
+/* navbar */
+
+.wrapper-nav {
     background-color: var(--ms_secondary-color)
 }
+.ms_navbar {
+    min-height: 80px;
+   
+}
 
+.ms_navbar-brand {
+    color:var(--ms_font-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ms_nav-link {
+    color: white !important;
+}
+
+.ms_hamburger {
+    border: 1px solid white !important;
+}
+
+span img {
+    width: 25px;
+    height: 30px;
+}
+
+/* hero */
 .hero-section {
-    min-height: 500px;
-    background-color: var(--ms_primary-color)
+    background-color: var(--ms_primary-color);
+    color: white;
+}
+
+
+.hero-section img {
+    width: 200px;
 }
 
 /* MAIN */
 
 /* portfolio section */
-[class*=col-] {
-    /* debug */
-    border: 2px solid black;
-    min-height: 200px;
-}
 
 
 /* about section */
 .about {
     background-color: var(--ms_primary-color);
-    /* debug */
+    color: white;
 }
 
 /* contact me */
@@ -72,8 +194,8 @@ img {
     /* debug */
 }
 
-.footer-bottom {
+footer {
     background-color: var(--ms_secondary-color);
-    /* debug */
-    min-height: 150px;
+
+ 
 }
