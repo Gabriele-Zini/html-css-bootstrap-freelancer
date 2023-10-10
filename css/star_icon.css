@@ -81,11 +81,11 @@
   }
 
   .about .icon-with-stripes::before {
-    left: 25%; 
+    left: 30%; 
   }
 
   .about .icon-with-stripes::after {
-   right: 25%;
+   right: 30%;
   }
 }
 
@@ -144,3 +144,80 @@
 }
 
 /* ---------/MEDIA QUERY STAR WITH STRIPS ICON ABOUT SECTION--------- */
+
+
+/* ---------MEDIA QUERY STAR WITH STRIPS ICON CONTACT-ME SECTION--------- */
+
+@media screen and (min-width: 500px) {
+    .contact-me .icon-with-stripes::before +
+    .contact-me .icon-with-stripes::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    top:50%;
+  }
+
+  .contact-me .icon-with-stripes::before {
+    left: 30%; 
+  }
+
+  .contact-me .icon-with-stripes::after {
+   right: 30%;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+    .contact-me .icon-with-stripes::before,
+    .contact-me .icon-with-stripes::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    top:50%;
+  }
+
+  .contact-me .icon-with-stripes::before {
+    left: 32%; 
+  }
+
+  .contact-me .icon-with-stripes::after {
+   right: 32%;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .contact-me .icon-with-stripes::before, 
+    .contact-me .icon-with-stripes::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    top:50%;
+  }
+  .contact-me .icon-with-stripes::before {
+    left: 35%; 
+  }
+
+  .contact-me .icon-with-stripes::after {
+   right: 35%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .contact-me .icon-with-stripes::before, 
+    .contact-me .icon-with-stripes::after {
+    content: '';
+    width: 90px;
+    height: 4px;
+    top:50%;
+  }
+  .contact-me .icon-with-stripes::before {
+    left: 38%; 
+  }
+  
+  .contact-me .icon-with-stripes::after {
+   right: 38%;
+  }
+}
+
+/* ---------/MEDIA QUERY STAR WITH STRIPS ICON CONTACT-ME SECTION--------- */

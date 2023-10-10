@@ -116,6 +116,8 @@ span img {
 
 
 /* about section */
+
+/* star icon-about section */
 .about {
     background-color: var(--ms_primary-color);
     color: white;
@@ -137,14 +139,45 @@ span img {
 }
 
 /* contact me */
-.contact-me {
-    /* debug */
-    min-height: 500px
+.ms_form-control {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0;
+    padding: 0;
 }
 
-.form-div {
-  
+.ms_form-control:focus {
+    box-shadow: none;
 }
+
+.ms_button-send {
+    background-color: var(--ms_primary-color);
+}
+
+/* star icon- contact me*/
+.contact-me .fa-star {
+    color: black;
+}
+
+.contact-me .icon-with-stripes::before, 
+.contact-me .icon-with-stripes::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    top:50%;
+    background-color: black;
+}
+.contact-me .icon-with-stripes::before {
+    left: 18%; 
+}
+
+  .contact-me .icon-with-stripes::after {
+   right: 18%;
+}
+
+
+
 /* FOOTER */
 
 .footer-top {

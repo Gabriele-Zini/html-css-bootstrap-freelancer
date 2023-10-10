@@ -156,8 +156,28 @@
 
       <section class="contact-me mb-5">
         <div class="ms_wrapper">
-          <h2 class="text-center my-5">Contact me</h2>
-          <div class="form-div"></div>
+          <h2 class="text-center mt-5 mb-3 fs-1">Contact me</h2>
+          <div class="icon-with-stripes d-flex justify-content-center mb-5">
+            <i class="fa-solid fa-star fs-3"></i>
+          </div>
+          <div class="form-div">
+            <form action="/process-form" method="post">
+
+              <label for="name">Name</label>
+              <input class="form-control ms_form-control" type="text" id="name" name="name" required><br><br>
+      
+              <label for="address">Email Address:</label>
+              <input class="form-control ms_form-control" type="email" id="email" name="email" required><br><br>
+
+              <label for="address">Phone Number</label>
+              <input class="form-control ms_form-control" type="number" id="number" name="number" required><br><br>
+      
+              <label for="message">Message</label><br>
+              <textarea class="form-control ms_form-control" id="message" name="message" rows="5" required></textarea><br><br>
+      
+              <input class="btn btn-success ms_button-send" type="submit" value="Send">
+          </form>
+          </div>
         </div>
       </section>
     </main>
