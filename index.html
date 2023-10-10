@@ -21,10 +21,13 @@
     />
     <!-- style css -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- star icon media query -->
+    <link rel="stylesheet" href="./css/star_icon.css" />
   </head>
   <body>
     <!-- header -->
     <header>
+      <!-- navbar -->
       <div class="wrapper-nav">
         <nav class="navbar navbar-expand-md navbar-light ms_navbar container">
           <div class="container-fluid">
@@ -61,17 +64,21 @@
           </div>
         </nav>
       </div>
-      <div class="hero-section container-fluid pt-5">
-        <div class="d-flex justify-content-center">
-          <img src="./img/avatar.svg" alt="" />
+
+      <!-- hero -->
+      <div class="hero-wrapper">
+        <div class="hero-section container pt-5">
+          <div class="d-flex justify-content-center">
+            <img src="./img/avatar.svg" alt="" />
+          </div>
+          <h1 class="text-center mt-3">START BOOTSTRAP</h1>
+          <div class="icon-with-stripes d-flex justify-content-center">
+            <i class="fa-solid fa-star fs-3"></i>
+          </div>
+          <p class="text-center mt-3 fs-5 pb-5">
+            GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+          </p>
         </div>
-        <h1 class="text-center mt-3">START BOOTSTRAP</h1>
-        <div class="icon-with-stripes d-flex justify-content-center">
-          <i class="fa-solid fa-star fs-3"></i>
-        </div>
-        <p class="text-center mt-3 fs-5 pb-5">
-          GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
-        </p>
       </div>
     </header>
     <!-- /header -->
@@ -79,8 +86,12 @@
     <!-- main -->
     <main>
       <!-- portofolio section -->
-      <section class="portofolio container">
-        <div class="row p-3 mb-5 mt-5 g-4">
+      <section class="portfolio container">
+        <h2 class="text-center fs-1 mt-5">My Portfolio</h2>
+        <div class="icon-with-stripes d-flex justify-content-center">
+          <i class="fa-solid fa-star fs-3"></i>
+        </div>
+        <div class="row p-3 mb-5 g-4">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card ms_card">
               <img src="./img/submarine.png" alt="" />
